@@ -1,0 +1,85 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Mono",
+        "price": 2500,
+        "category": "accesorios",
+        "description": "Moño bordado a mano con flores lila. Tela de fibra y lino. Hilo de poliéster.",
+        "variants": [
+          { "prueba": "verde", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/MonoVerde.jpg" },
+          { "prueba": "beige", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/MonoBeige.jpg" },
+          { "prueba": "negro", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/MonoNegro.jpg" },
+          { "prueba": "rojo",  "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/MonoRojo.jpg" }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Enterito",
+        "price": 32000,
+        "category": "ropa",
+        "description": "Tela de corderoy finita, transpirable y muy suave.",
+        "variants": [
+          { "prueba": "verde", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/EnteritoVerde.jpg" },
+          { "prueba": "violeta", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/EnteritoVioleta.jpg" }
+        ],
+        "Size": [
+          { "talle": "S" },
+          { "talle": "XL" },
+          { "talle": "M" }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Sweatter Coffe",
+        "price": 21000,
+        "category": "ropa",
+        "description": "Sweatter hilo de algodon bordado. Color unico.",
+        "variants": [
+          { "prueba": "S", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/Sweatter1.jpg" },
+          { "prueba": "XL", "image":"https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/sweater3.jpg" },
+          { "prueba": "M", "image":"https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/sweater2.jpg" }
+        ],
+        "Size": [
+          { "talle": "S" },
+          { "talle": "XL" },
+          { "talle": "M" }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "PoliPin",
+        "price": 10000,
+        "category": "Accesorios",
+        "description": "Dijes de polillas que tambien pueden ser usados de pin. Ceramica, acero y piedra.",
+        "variants": [
+          { "prueba": "white", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/polillawhite.jpg" },
+          { "prueba": "beige", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/polillabeige.jpg" },
+          { "prueba": "verde", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/polillaverde.jpg" }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Acolchado MOSS",
+        "price": 100000,
+        "category": "Hogar",
+        "description": "Acolchado poliester peluche color verde musgo.Muy abrigado y cozy.Viene en 1/2 plaza y dos plazas",
+        "variants": [
+          { "prueba": "KingSize", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/kingsize.jpg" },
+          { "prueba": "QueenSize", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/queensize.jpg" }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Lampara Lily",
+        "price": 80000,
+        "category": "Hogar",
+        "description": "Lampara con forma de campanita, viene en 3 variantes segun el tipo de iluminacion. En vidrio y ceramica.",
+        "variants": [
+          { "prueba": "Aplique Pared", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/Lampara.jpg" },
+          { "prueba": "Candelabro", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/candelabroLily.jpg" },
+          { "prueba": "Velador", "image": "https://raw.githubusercontent.com/LunaBujalesky/WintekaShowroom/main/src/assets/DepieLily.jpg" }
+        ]
+      }
+    ]
+  }
