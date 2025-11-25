@@ -1,20 +1,18 @@
-{ 
-    "users": [ 
-        {
-            "id": 0,
-            "Name": "Admin",
-            "fechaNacimiento": "10/10/1997",
-            "email": "admin@gmail.com",
-            "password": "@dmin123",
-            "suscripcion": true 
-          },
-{
-    "id": 1,
-    "Name": "Marta",
-    "fechaNacimiento": "10/10/1999",
-    "email": "MartaCrow@gmail.com",
-    "password": "Marta123",
-    "suscripcion": true 
-  }
+[
+    {
+        "id": 0,
+        "name": "Admin",
+        "fechaNacimiento": "10/10/1997",
+        "email": "admin@gmail.com",
+        "password": "@dmin123",
+        "suscripcion": true
+    },
+    {
+        "id": 1,
+        "name": "Marta",
+        "fechaNacimiento": "10/10/1999",
+        "email": "MartaCrow@gmail.com",
+        "password": "Marta123",
+        "suscripcion": true
+    }
 ]
-}
