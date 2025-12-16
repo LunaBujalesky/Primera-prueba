@@ -41,7 +41,7 @@ router.get("/:pid", (req, res) => {
   res.json(product);
 });
 
-// POST /api/products/  Crear producto
+// POST = Crear producto
 router.post("/", (req, res) => {
   const products = getProducts();
   const data = req.body;
@@ -67,7 +67,7 @@ router.post("/", (req, res) => {
   res.status(201).json(newProduct);
 });
 
-// PUT /api/products/:pid → Actualizar producto (sin tocar ID)
+// PUT /api/products/:pid = Actualizar producto (sin tocar ID)
 router.put("/:pid", (req, res) => {
   const { pid } = req.params;
   const updates = req.body;
@@ -95,7 +95,7 @@ router.put("/:pid", (req, res) => {
   res.json(updatedProduct);
 });
 
-// DELETE /api/products/:pid → Eliminar producto
+// DELETE /api/products/:pid = Eliminar producto
 router.delete("/:pid", (req, res) => {
   const { pid } = req.params;
 
